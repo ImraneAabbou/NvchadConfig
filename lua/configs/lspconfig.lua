@@ -13,6 +13,18 @@ local servers = {
   clangd = {},
   -- emmet_language_server = {},
   emmet_ls = {
+    init_options = {
+      html = {
+        options = {
+          ["output.selfClosingStyle"] = "xhtml",
+        },
+      },
+      jsx = {
+        options = {
+          ["output.selfClosingStyle"] = "xhtml",
+        },
+      },
+    },
     filetypes = {
       "css",
       "eruby",
