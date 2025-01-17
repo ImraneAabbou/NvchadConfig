@@ -1,9 +1,10 @@
-require("nvchad.configs.lspconfig").defaults()
 local nvlsp = require "nvchad.configs.lspconfig"
 local on_attach = nvlsp.on_attach
 local on_init = nvlsp.on_init
 local capabilities = nvlsp.capabilities
 local lspconfig = require "lspconfig"
+
+nvlsp.defaults()
 
 local servers = {
   -- stimulus_ls = {},
