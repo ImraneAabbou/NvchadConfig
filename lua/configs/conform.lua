@@ -6,6 +6,7 @@ local options = {
     php = { "pretty-php" },
     blade = { "blade-formatter" },
     sql = { "sqlfmt" },
+    htmlangular = { front_end_fmt },
     html = { front_end_fmt },
     css = { front_end_fmt },
     javascript = { front_end_fmt },

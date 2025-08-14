@@ -8,6 +8,7 @@ nvlsp.defaults()
 
 local servers = {
   -- stimulus_ls = {},
+  angularls = {},
   html = {},
   cssls = {},
   ts_ls = {},
