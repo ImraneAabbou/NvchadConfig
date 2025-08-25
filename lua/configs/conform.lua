@@ -11,6 +11,7 @@ local options = {
     css = { front_end_fmt },
     javascript = { front_end_fmt },
     typescript = { front_end_fmt },
+    typescriptreact = { front_end_fmt },
     json = { front_end_fmt },
     yaml = { front_end_fmt },
     markdown = { front_end_fmt },
