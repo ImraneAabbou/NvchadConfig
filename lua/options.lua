@@ -7,6 +7,7 @@ o.clipboard = ""
 o.relativenumber = true
 o.foldmethod = "expr"
 o.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.shell = "fish"
 
 -- auto set filetype to htmlangular files
 vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
