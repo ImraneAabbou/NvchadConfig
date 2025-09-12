@@ -19,6 +19,7 @@ local options = {
     less = { front_end_fmt },
     vue = { front_end_fmt },
     svelte = { front_end_fmt },
+    python = { "black" }
   }, -- format_on_save = {
   --   -- These options will be passed to conform.format()
   --   timeout_ms = 500,
