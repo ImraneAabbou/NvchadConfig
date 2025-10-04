@@ -10,6 +10,9 @@ M.ui = {
     theme = "default",
     separator_style = "arrow",
   },
+}
+
+M.base46 = {
   transparency = true,
 }
 
