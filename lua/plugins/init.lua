@@ -4,6 +4,11 @@ return {
     dependencies = {
       "nvim-telescope/telescope.nvim",
       dependencies = { "nvim-lua/plenary.nvim" },
+      cmd = {
+        "Runner",
+        "AutoRunner",
+        "AutoRunnerStop",
+      },
     },
     cmd = {
       "Runner",
@@ -11,19 +16,6 @@ return {
       "AutoRunnerStop",
     },
     config = require "configs.runner",
-  },
-  {
-    "kristijanhusak/vim-dadbod-ui",
-    dependencies = {
-      { "tpope/vim-dadbod", lazy = true },
-      { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
-    },
-    cmd = {
-      "DBUI",
-      "DBUIToggle",
-      "DBUIAddConnection",
-      "DBUIFindBuffer",
-    },
   },
   {
     "prisma/vim-prisma",

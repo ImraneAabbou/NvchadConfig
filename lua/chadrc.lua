@@ -7,10 +7,10 @@ local M = {}
 M.ui = {
   theme = "mito-laser",
   statusline = {
-    theme = "minimal",
+    theme = "default",
     separator_style = "arrow",
   },
-  transparency = false,
+  transparency = true,
 }
 
 M.term = {
