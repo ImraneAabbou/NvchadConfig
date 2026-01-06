@@ -1,5 +1,9 @@
 return {
   {
+    "github/copilot.vim",
+    lazy = false,
+  },
+  {
     "MarcHamamji/runner.nvim",
     dependencies = {
       "nvim-telescope/telescope.nvim",
